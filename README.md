@@ -13,7 +13,7 @@ $ catkin_init_workspace
 然后将该仓库克隆到本地
 ```
 $ cd ~/catkin_ws/src/
-$ git clone https://github.com/NKU-MobFly-Robotics/graph_search.git
+$ git clone https://github.com/Chris-Arvin/Astart.git
 ```
 完成GraphSearch类后，编译程序
 ```
