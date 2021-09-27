@@ -77,6 +77,7 @@ bool GraphSearch::Figure(std::vector<PointInt>& path, std::vector<PointInt>& exp
   this->openlist_.push_back(handle_node);
   while (true){
     if (handle_node->x_ == goal_node_->x_ && handle_node->y_ == goal_node_->y_){
+      std::cout<<"distance(g): "<<handle_node->g_<<std::endl;
       this->FindRes(path, expands, handle_node);
       return true;
     }
